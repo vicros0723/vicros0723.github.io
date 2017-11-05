@@ -1,5 +1,27 @@
 body {
+    font-family: Verdana, sans-serif;
     margin: auto;
     max-width: 800px;
     padding: 1rem;
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    color: inherit;
+    padding: 0 1rem;
+    text-decoration: none;
+    transition: all 0.25s linear 0s;
+}
+
+nav a:visited {
+    color: inherit;
+}
+
+nav a:hover {
+    color: #9b9b9b;
+}
+
