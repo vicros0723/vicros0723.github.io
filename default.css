@@ -25,3 +25,23 @@ nav a:hover {
     color: #9b9b9b;
 }
 
+a {
+    color: inherit;
+    transition: all 0.1s linear 0s;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: #9b9b9b;
+}
+
+article header {
+    margin-left: 2rem;
+}
+
+article footer {
+    margin-left: 2rem;
+}
